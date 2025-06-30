@@ -1,4 +1,3 @@
-# utils/face_utils.py
 
 import os
 import face_recognition

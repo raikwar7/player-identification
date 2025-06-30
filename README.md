@@ -33,7 +33,7 @@ pip install -r requirements.txt
 ### `requirements.txt`
 
 ```
-ultralytics==8.0.20
+ultralytics
 opencv-python
 deep_sort_realtime
 face_recognition
@@ -76,9 +76,8 @@ project/
 
 3. Add the input video file as `video.mp4`.
 
-4. Make sure `utils/face_utils.py` includes:
-   - `recognize_face(image, threshold=0.5)`
-   - `save_new_face(image, face_id)`
+4. Make sure `utils/face_utils.py` 
+    
 
 5. Run the script:
    ```bash
@@ -112,8 +111,4 @@ project/
 **Divyansh Singh Raikwar**  
 GitHub: [@raikwar7](https://github.com/raikwar7)
 
----
-
-## 📜 License
-
-This project is for academic and research purposes only.
+ 
